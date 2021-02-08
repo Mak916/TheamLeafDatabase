@@ -1,0 +1,10 @@
+# TheamLeafDatabase
+
+firstly You need to create a database table for making that application 
+{
+Query=
+ CREATE TABLE `person` (   `id` int(11) NOT NULL AUTO_INCREMENT, 
+ `first_name` varchar(45) NOT NULL,   `last_name` varchar(45) NOT NULL,  
+ `mobile` varchar(45) NOT NULL,   `address` varchar(45) NOT NULL, 
+ PRIMARY KEY (`id`) ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+}
